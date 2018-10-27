@@ -6,30 +6,8 @@ This project scrapes EWG scores for various ingredients and returns the scraped 
 
 The following is a list of things that need to be add. (For myself. Need to remove this afterwards.)
 
-* Change this to an API (running from external script)
-* Add this to a mobile site of sorts
-* Include Google Tessaract in this project
 * Add this to GitHub (must email EWG first about uploading project)
-* Complete documentation
-* Include testing suite
-* Refactor code (move around files in a better structure)
-* MaKe a GUI for OCR
-* Include averages of EWG scores for products
-* Store products in a database
-* When looking up list of products, bring up a prompt for saying what product it belongs to
-* Products Database: 
-* EVENTUALLY: Store a bunch fo products in a database with the following
-    * Type (Makeup/skincare/etc)
-    * Company
-    * Product name
-    * Size
-    * Average EWG score
-    * List of ingredients (+ their info)
-    * Price
-* Develop desktop website
-* Develop mobile website
-* Android application
-* (When I get a Mac) iPhone application
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
