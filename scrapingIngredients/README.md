@@ -12,6 +12,9 @@ The following is a list of things that need to be add. (For myself. Need to remo
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.86.25:3000/
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
