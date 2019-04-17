@@ -1,0 +1,83 @@
+body {
+    margin: 40px;
+  }
+  
+.product-image {
+        grid-area: product-image;
+    }
+
+    .ingredients {
+        grid-area: ingredients;
+    }
+
+    .basic-info {
+        grid-area: basic-info;
+    }
+
+    .product-name-type {
+        grid-area: product-name-type;
+    }
+
+    .personal-logistics {
+        grid-area: personal-logistics;
+    }
+
+    .wrapper {
+        background-color: #fff;
+        color: #444;
+    }
+
+.wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    "product-name-type"
+    "product-image"
+    "basic-info"
+    "ingredients"
+    "personal-logistics"
+}
+
+    @media screen and (max-width: 479px)  {
+    .wrapper {
+
+        grid-template-columns: 20% auto;
+        grid-template-areas:
+            "product-name-type   product-name-type"
+            "product-image  basic-info"
+            "ingredients ingredients"
+            "personal-logistics   personal-logistics";
+    }
+    }
+
+    @media only screen and (min-width: 500px) {
+        .wrapper {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 150px 300px;
+            grid-template-areas:
+            "product-name-type   product-name-type"
+            "product-image  basic-info"
+            "ingredients ingredients"
+            "personal-logistics   personal-logistics";
+            max-width: 600px;
+        }
+    }
+
+.box {
+background-color: #444;
+color: #fff;
+border-radius: 5px;
+padding: 10px;
+font-size: 150%; 
+}
+
+.product-name-type,
+.footer {
+background-color: #999;
+}
+
+.ingredients {
+background-color: #ccc;
+color: #444;
+}
